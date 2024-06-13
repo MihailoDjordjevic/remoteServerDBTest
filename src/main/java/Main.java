@@ -8,7 +8,7 @@ public class Main {
         String user = "root";
         String password = "";
 
-        String query = "INSERT INTO user (username, email) VALUES ('Bogdan', 'bogi@gmail.com')";
+        String query = "INSERT INTO user (name, email) VALUES ('Bogdan', 'bogi@gmail.com')";
 
         Connection conn;
         PreparedStatement pstmt;
